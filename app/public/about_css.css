@@ -1,0 +1,90 @@
+#navigation-bar {
+    background-color: lightblue;
+    margin: 10px auto 0 auto;
+    line-height: 1.65;
+    padding: 10px 50px;
+    height: 50px;
+}
+
+#wide-main {
+    max-width: 1300px;
+    /* margin: 0px auto 0 auto; */
+    line-height: 1.65;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main-content {
+    flex: 2;
+    box-sizing: border-box;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+}
+
+#skills {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    border: 2px solid black;
+}
+
+.point {
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 2px;
+    margin: 5px;
+}
+
+#wide {
+    max-width: 1300px;
+    /* margin: 10px auto 0 auto; */
+    line-height: 1.65;
+    padding: 5px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+.statements {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 20px;
+    /* margin-bottom: 20px; */
+    align-content: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+#container {
+    max-width: 1300px;
+    /* background-color: ; */
+    margin: 10px auto 0 auto;
+    line-height: 1.65;
+    padding: 10px 50px;
+}
+
+#foot {
+    background-color: lightblue;
+    margin: 10px auto 0 auto;
+    line-height: 1.65;
+    padding: 10px 50px;
+    display: flex;
+}
+
+#num-one {
+    flex: 1;
+}
+
+#num-two {
+    flex: 1;
+}
+
+#num-three {
+    flex: 1;
+}
+
+#footer-text {
+    flex: 1;
+}
