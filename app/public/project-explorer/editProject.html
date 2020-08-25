@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Edit Project
+    </title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="header-footer">
+        <div class="left-nav">
+            Project Explorer <input type="text" class="nav-text" />
+            <button class="nav-text nav-btn">Search</button>
+            <a href="?" style="text-decoration: none" class="nav-text nav-text-color">Project</a>
+            <a href="?" style="text-decoration: none" class="nav-text nav-text-color">Submit</a>
+        </div>
+
+        <div class="right-nav">
+            <a href="?" style="text-decoration: none" class="nav-text nav-text-color">Sign Up</a>
+            <a href="?" style="text-decoration: none" class="nav-text nav-text-color">Login</a>
+        </div>
+    </nav>
+
+
+    <main>
+
+        <section>
+
+            <h2 class="container12">Project 1</h2>
+
+            <div class="container8">
+                <div class="profile">
+                    <p>Created By<br>Grace</p>
+                </div>
+                <div class="profile">
+                    <p>Date Created<br>2002-04-01</p>
+                </div>
+                <div class="profile">
+                    <p>Last Updated<br>2020-05-06</p>
+                </div>
+
+                <input type="submit" value="View Project" class="button4">
+
+            </div>
+
+        </section>
+
+        <section class="container9">
+
+            <div class="editproject">
+                <h3>Edit Project</h3>
+                <hr>
+
+                <form>
+                    <label for="ptitle">Project Name</label><br>
+                    <input type="text" placeholder="Project 4" name="ptitle"><br><br>
+
+                    <label for=abstract>Project Abstract</label><br>
+                    <textarea name="abstract"></textarea><br><br>
+
+                    <label for="author">Author(s)</label><br>
+                    <input type="text" placeholder="Paul Pierce, Ray Allen" name="author"><br><br>
+
+                    <label for="tag">Tag(s)</label><br>
+                    <input type="text" placeholder="#yaml, #ejs" name="tag"><br><br>
+
+                    <input type="submit" value="Save" class="button1">
+                </form>
+
+            </div>
+
+            <div class="editproject">
+                <h3>Manage Project Files</h3>
+                <hr>
+                <input type="file" value="browse">
+                <hr>
+
+                <div class="fileDisplay">
+                    <table>
+                        <tr class="tableRow">
+                            <th>
+                                <h3>Project files</h3>
+                            </th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>No file uploaded yet</p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="foot">
+            Project Explorer © 2020<b><sup> .</sup></b><b>Edconnect</b>
+        </div>
+
+    </footer>
+</body>
+
+</html>
