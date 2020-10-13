@@ -1,16 +1,14 @@
+.numbering{
+    background-color: blue;
+}
+.numbering-2{
+    background-color: blue;
 .header-footer {
     background-color: rgba(77, 77, 238, 0.714);
     line-height: 1.65;
     /* padding: 5px 5px; */
     margin-top: 10px;
-    display: flex;
     color: white;
-}
-
-@media (min-width: 900px) {
-    .header-footer {
-        display: flex;
-    }
 }
 
 .nav-text-color {
